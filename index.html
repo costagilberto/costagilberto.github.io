@@ -1,7 +1,101 @@
+
 <!DOCTYPE html>
-<html>
+
+<!--
+Copyright 2017 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<html lang="en">
+<head>
+
+<script type="60afe580c07e46927a44613d-text/javascript">
+//  philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build
+window.ga = window.ga || function() {
+  (ga.q = ga.q || []).push(arguments);
+};
+ga('create', 'UA-33848682-1', 'auto');
+ga('set', 'transport', 'beacon');
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js" type="60afe580c07e46927a44613d-text/javascript"></script>
+
+<meta charset="utf-8">
+<meta name="description" content="Simplest possible examples of HTML, CSS and JavaScript.">
+<meta name="author" content="//samdutton.com">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta itemprop="name" content="simpl.info: simplest possible examples of HTML, CSS and JavaScript">
+<meta itemprop="image" content="/images/icons/icon192.png">
+<meta id="theme-color" name="theme-color" content="#fff">
+
+<link rel="icon" href="/images/icons/icon192.png">
+
+<base target="_blank">
+
+
+<title>mediaDevices.enumerateDevices()</title>
+
+<link rel="stylesheet" href="../../css/main.css">
+
+<style>
+h1 {
+  margin: 0 0 24px 0;
+}
+select {
+  width: 150px;
+}
+video {
+  margin: 10px 0 0 0;
+}
+</style>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div id="container">
+    
+    <section id="george-floyd">
+      <a href="https://en.wikipedia.org/wiki/George_Floyd" title="Wikipedia entry for George Floyd" id="name">
+        <img src="../../images/george-floyd.jpg" alt="George Floyd">
+      </a>
+      <a href="https://en.wikipedia.org/wiki/George_Floyd" title="Wikipedia entry for George Floyd" id="name">George Floyd</a>
+      <a href="https://secure.actblue.com/donate/naacp-1" id="dates">October 14, 1973 –&nbsp;May&nbsp;25,&nbsp;2020</a> 
+    </section>
+
+  <h1><a href="../../index.html" title="simpl.info home page">simpl.info</a> mediaDevices.<wbr>enumerateDevices()</h1>
+
+  <div class="select">
+    <label for="audioSource">Audio source: </label><select id="audioSource"></select>
+  </div>
+
+  <div class="select">
+    <label for="videoSource">Video source: </label><select id="videoSource"></select>
+  </div>
+
+  <video autoplay muted playsinline></video>
+
+  <script async src="js/main.js" type="60afe580c07e46927a44613d-text/javascript"></script>
+
+  <p>For more information see <a href="https://www.html5rocks.com/en/tutorials/getusermedia/intro/" title="Media capture article by Eric Bidelman on HTML5 Rocks">Capturing Audio &amp; Video in HTML5</a> on HTML5 Rocks.</p>
+
+<a href="https://github.com/samdutton/simpl/blob/gh-pages/getusermedia/sources/js/main.js" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+
+</div>
+
+<script src="../../js/lib/ga.js" type="60afe580c07e46927a44613d-text/javascript"></script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="60afe580c07e46927a44613d-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"89e0ce30cde853d1","r":1,"version":"2024.4.1","token":"66e57f9d2d774c349a57c4dd058b5030"}' crossorigin="anonymous"></script>
 </body>
 </html>
